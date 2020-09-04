@@ -9,6 +9,8 @@ license = "BSD-3-Clause"
 keywords = [ "time", "wasm" ]
 edition = "2018"
 
+[dependencies]
+wasm-bindgen = "0.2"
 [features]
 now = [ "time" ]
 wasm-bindgen = ["js-sys", "wasm-bindgen_rs", "web-sys"]
